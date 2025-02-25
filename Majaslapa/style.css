@@ -1,0 +1,85 @@
+/* Vispārējie iestatījumi */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   color: #333;
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3, h4 {
+   color: #2c3e50;
+   font-weight: bold;
+}
+
+header {
+   background-color: #3498db;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+header .user-options {
+   margin-top: 10px;
+}
+
+header input[type="search"] {
+   padding: 10px;
+   width: 80%;
+   max-width: 400px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+
+main {
+   padding: 20px;
+   background-color: white;
+}
+
+.recommendations {
+   background-color: #ecf0f1;
+   border-radius: 8px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.recommendations ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.recommendations li {
+   margin: 15px 0;
+   font-size: 18px;
+}
+
+.recommendations p {
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 10px;
+}
+
+.recommendations li strong {
+   color: #e74c3c;
+   font-size: 20px;
+}
+
+/* Pievienot nelielu ēnu, lai piešķirtu dziļumu */
+.recommendations {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobilajām ierīcēm */
+@media screen and (max-width: 768px) {
+   header input[type="search"] {
+       width: 100%;
+   }
+
+   .recommendations {
+       padding: 15px;
+   }
+}
+
+
